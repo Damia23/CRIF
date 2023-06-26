@@ -34,7 +34,8 @@
     "react-native-safe-area-view": "^1.1.1",
     "react-native-web": "~0.18.10",
     "react-simple-form-validator": "^0.3.1",
-    "expo-crypto": "~12.2.1"
+    "expo-crypto": "~12.2.1",
+    "expo-camera": "~13.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

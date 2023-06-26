@@ -9,6 +9,7 @@ import LoginScreen from "./screens/LoginScreen";
 import FormScreen from "./screens/FormScreen";
 import SubmitFormScreen from "./screens/SubmitFormScreen";
 import SignUpScreen from "./screens/SignUpScreen";
+import CameraScreen from "./screens/CameraScreen";
 
 const Stack = createStackNavigator();
 
@@ -44,6 +45,11 @@ export default function App() {
         <Stack.Screen
           name="SubmitForm"
           component={SubmitFormScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="CameraScreen"
+          component={CameraScreen}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

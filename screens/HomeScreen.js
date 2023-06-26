@@ -47,7 +47,7 @@ const HomeScreen = ({ navigation }) => {
       <Link to={"/CIRF"} style={styles.nav_link}>
         To Form Screen
       </Link>
-      <Link to ={""} style={styles.nav_link}>
+      <Link to ={"/CameraScreen"} style={styles.nav_link}>
         Camera
       </Link>
       <TouchableOpacity style={styles.button} onPress={logout}>
